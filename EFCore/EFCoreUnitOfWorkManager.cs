@@ -1,6 +1,8 @@
-﻿using GenericFunctions.Repository;
+﻿using GenericFunctions.EFNoSQL;
+using GenericFunctions.Repository;
 using GenericFunctions.UoW;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace GenericFunctions.EFCore
 {
@@ -22,6 +24,17 @@ namespace GenericFunctions.EFCore
         public IRepository<TEntity> Repository<TEntity>() where TEntity : class
         {
             return new EFCoreRepository<TDbContext, TEntity>(new DefaultDbContextProvider<TDbContext>(dbContext));
+        }
+
+        /// <summary>
+        /// Do not use this for SQL Database Tables. 
+        /// </summary>
+        /// <remarks>
+        /// Use <see cref="Repository"/>.
+        /// </remarks>
+        public INoSQLRepository<TEntity> NoSQLRepository<TEntity>() where TEntity : class
+        {
+            throw new NotImplementedException();
         }
     }
 }
