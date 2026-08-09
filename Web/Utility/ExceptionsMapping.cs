@@ -1,8 +1,8 @@
-﻿using GenericFunctions.Web.Filters;
+﻿using Codekali.Net.Persistence.Web.Filters;
 using System;
 using System.Net;
 
-namespace GenericFunctions.Web.Utility
+namespace Codekali.Net.Persistence.Web.Utility
 {
     public class ExceptionsMapping
     {

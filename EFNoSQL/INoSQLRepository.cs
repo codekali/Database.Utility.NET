@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace GenericFunctions.EFNoSQL
+namespace Codekali.Net.Persistence.EFNoSQL
 {
     /// <summary>
     /// This interface is implemented by all MongoDB repositories to ensure implementation of fixed methods.

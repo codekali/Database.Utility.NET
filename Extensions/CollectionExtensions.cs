@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GenericFunctions.Extensions
+namespace Codekali.Net.Persistence.Extensions
 {
     public static class CollectionExtensions
     {

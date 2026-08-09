@@ -1,11 +1,11 @@
-﻿using GenericFunctions.Mapping;
-using GenericFunctions.Models;
+﻿using Codekali.Net.Persistence.Mapping;
+using Codekali.Net.Persistence.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Linq;
 
-namespace GenericFunctions.Web
+namespace Codekali.Net.Persistence.Web
 {
     public class BaseAPIController(ILogger logger, IObjectMapper mapper) : Controller
     {

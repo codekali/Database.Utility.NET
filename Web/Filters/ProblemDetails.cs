@@ -1,4 +1,4 @@
-﻿namespace GenericFunctions.Web.Filters
+﻿namespace Codekali.Net.Persistence.Web.Filters
 {
     public class ProblemDetails
     {

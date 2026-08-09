@@ -1,6 +1,6 @@
-﻿using GenericFunctions.AccessLog;
-using GenericFunctions.Mapping;
-using GenericFunctions.Web.Utility;
+﻿using Codekali.Net.Persistence.AccessLog;
+using Codekali.Net.Persistence.Mapping;
+using Codekali.Net.Persistence.Web.Utility;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 
-namespace GenericFunctions.Web
+namespace Codekali.Net.Persistence.Web
 {
     public class BaseMVCController : Controller
     {

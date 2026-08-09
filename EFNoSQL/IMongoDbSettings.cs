@@ -1,4 +1,4 @@
-﻿namespace GenericFunctions.EFNoSQL
+﻿namespace Codekali.Net.Persistence.EFNoSQL
 {
     /// <summary>
     /// This static class stores the database connection information

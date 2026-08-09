@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace GenericFunctions.UoW
+namespace Codekali.Net.Persistence.UoW
 {
     public class UnitOfWorkManager<TDbContext> : IUnitOfWorkManager
          where TDbContext : DbContext

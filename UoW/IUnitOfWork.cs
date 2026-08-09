@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace GenericFunctions.UoW
+namespace Codekali.Net.Persistence.UoW
 {
     /// <summary>
     /// Defines a unit of work.

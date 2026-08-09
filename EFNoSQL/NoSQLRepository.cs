@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 
-namespace GenericFunctions.EFNoSQL
+namespace Codekali.Net.Persistence.EFNoSQL
 {
     public class NoSQLRepository<TDocument> : INoSQLRepository<TDocument>
             where TDocument : class

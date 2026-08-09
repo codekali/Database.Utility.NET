@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GenericFunctions.AccessLog
+namespace Codekali.Net.Persistence.AccessLog
 {
     public class LogData
     {

@@ -1,8 +1,8 @@
-﻿using GenericFunctions.EFNoSQL;
-using GenericFunctions.Repository;
+﻿using Codekali.Net.Persistence.EFNoSQL;
+using Codekali.Net.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 
-namespace GenericFunctions.UoW
+namespace Codekali.Net.Persistence.UoW
 {
     public interface IUnitOfWorkManager
     {

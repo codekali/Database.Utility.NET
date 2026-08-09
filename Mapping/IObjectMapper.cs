@@ -1,4 +1,4 @@
-﻿namespace GenericFunctions.Mapping
+﻿namespace Codekali.Net.Persistence.Mapping
 {
     /// <summary>
     /// Defines a simple interface to map objects.

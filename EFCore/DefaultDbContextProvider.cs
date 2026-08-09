@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace GenericFunctions.EFCore
+namespace Codekali.Net.Persistence.EFCore
 {
     public sealed class DefaultDbContextProvider<TDbContext> : IDbContextProvider<TDbContext>
          where TDbContext : DbContext

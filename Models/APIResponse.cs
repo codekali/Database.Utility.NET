@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable enable
 
-namespace GenericFunctions.Models
+namespace Codekali.Net.Persistence.Models
 {
     public class ApiResponse<T>(bool success, int statusCode, string message, T? data = default)
     {

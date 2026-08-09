@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GenericFunctions.Exceptions
+namespace Codekali.Net.Persistence.Exceptions
 {
     public class NotFoundException : Exception
     {

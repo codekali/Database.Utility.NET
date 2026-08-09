@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace GenericFunctions.AccessLog
+namespace Codekali.Net.Persistence.AccessLog
 {
     public interface IAccessLogger
     {

@@ -1,10 +1,10 @@
-﻿using GenericFunctions.EFNoSQL;
-using GenericFunctions.Repository;
-using GenericFunctions.UoW;
+﻿using Codekali.Net.Persistence.EFNoSQL;
+using Codekali.Net.Persistence.Repository;
+using Codekali.Net.Persistence.UoW;
 using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace GenericFunctions.EFCore
+namespace Codekali.Net.Persistence.EFCore
 {
     public class EFCoreUnitOfWorkManager<TDbContext> : IUnitOfWorkManager<TDbContext>, IUnitOfWorkManager
         where TDbContext : DbContext

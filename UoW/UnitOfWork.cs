@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace GenericFunctions.UoW
+namespace Codekali.Net.Persistence.UoW
 {
     public abstract class UnitOfWork : IUnitOfWork
     {

@@ -1,5 +1,5 @@
-﻿using GenericFunctions.Extensions;
-using GenericFunctions.Repository;
+﻿using Codekali.Net.Persistence.Extensions;
+using Codekali.Net.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Query;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace GenericFunctions.EFCore
+namespace Codekali.Net.Persistence.EFCore
 {
     /// <summary>
     /// Implements IRepository for Entity Framework.

@@ -1,11 +1,11 @@
-﻿using GenericFunctions.UoW;
+﻿using Codekali.Net.Persistence.UoW;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GenericFunctions.EFCore
+namespace Codekali.Net.Persistence.EFCore
 {
     /// <summary>
     /// Implements Unit of work for Entity Framework.

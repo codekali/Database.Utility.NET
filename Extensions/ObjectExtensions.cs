@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
 
-namespace GenericFunctions.Extensions
+namespace Codekali.Net.Persistence.Extensions
 {
     /// <summary>
     /// Extension methods for all objects.

@@ -1,6 +1,6 @@
 ﻿#nullable enable
 
-namespace GenericFunctions.Models
+namespace Codekali.Net.Persistence.Models
 {
     public class ServiceResult<T>
     {

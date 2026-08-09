@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GenericFunctions.Models
+namespace Codekali.Net.Persistence.Models
 {
     public class CreateTrackableEntity
     {
